@@ -1,0 +1,111 @@
+/* General styles */
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form card */
+.form-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-success {
+  background-color: #10b981;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #059669;
+}
+
+/* Input Styles */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.input-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.5);
+}
+
+/* Slider Styles */
+.slider-track {
+  width: 100%;
+  height: 6px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Label Styling */
+.label-text {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Summary Container */
+.summary-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 50px auto;
+}
+
+/* Text Display */
+.summary-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Slider Text */
+.slider-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Centering Utility */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
