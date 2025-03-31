@@ -12,6 +12,9 @@ const App = () => {
         <Route path="/summary" element={<SummaryPage />} />
       </Routes>
     </Router>
+  
+
+
   );
 };
 
